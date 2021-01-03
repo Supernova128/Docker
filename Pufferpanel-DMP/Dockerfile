@@ -3,7 +3,7 @@ RUN useradd -m -d /server pufferd
 WORKDIR /server
 
 
-RUN apt-get uzip
+RUN apt-get install uzip
 
 RUN apt update &&//
     apt install dirmngr gnupg apt-transport-https ca-certificates software-properties-common &&//
