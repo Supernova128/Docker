@@ -1,5 +1,5 @@
 FROM ubuntu:20.04
-Maintainer Devansh Agarwal
+MAINTAINER Devansh Agarwal
 
 RUN useradd -m -d /server pufferd
 WORKDIR /server
