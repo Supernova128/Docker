@@ -1,7 +1,9 @@
 FROM ubuntu:20.04
+Maintainer Devansh Agarwal
 
 RUN useradd -m -d /server pufferd
 WORKDIR /server
+
 
 RUN apt-get uzip
 
